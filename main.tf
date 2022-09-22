@@ -9,7 +9,7 @@ variable "instance_type" {
 variable "access_key" {
   type = string
 }
-variable "secret_access_key" {
+variable "secret_key" {
   type = string
 }
 provider "aws" {
